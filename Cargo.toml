@@ -1,0 +1,19 @@
+[package]
+name = "flex-grow"
+version = "0.1.0"
+edition = "2021"
+authors = ["Canop <cano.petrole@gmail.com>"]
+description = "allocate a size between children"
+keywords = ["flex"]
+license = "MIT"
+categories = ["gui"]
+repository = "https://github.com/Canop/flex-grow"
+readme = "README.md"
+rust-version = "1.56"
+
+[dependencies]
+
+[workspace]
+members = [
+    "examples/flex-term",
+]
